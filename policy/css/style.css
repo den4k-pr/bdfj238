@@ -1,0 +1,223 @@
+:root {
+    --title-font: 'SONGER Condensed';
+    --content-font: 'Manrope';
+    --font-family: 'Helvetica Neue';
+}
+html {
+    scroll-behavior: smooth;
+    font: 400 2.3364485981vw/1.33 var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fff;
+}
+a {
+    display: contents;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@media (min-width: 428px) {
+    html {
+        font: 400 10px var(--font-family), sans-serif;
+    }
+}
+
+body {
+    background-color: #000;
+    max-width: 428px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    position: relative;
+    z-index: -1;
+}
+
+.selection {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+
+}
+.head-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 111%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.8rem;
+
+
+}
+.head-second-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 125%;
+text-align: center;
+color: #fff;
+margin-bottom: 4rem;
+}
+.header-btn{
+    height: 5rem;
+    width: 24rem;
+    border-radius: 15rem;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.header-btn p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 121%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.second-head-text{
+    font-family: var(--font-family), sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+}
+.bg{
+    position: absolute;
+
+}
+.head img{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    margin-top: 3.6rem;
+    max-width: 428px;
+    margin-bottom: 2.4rem;
+}
+.head {
+    padding-top: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+    position: relative;
+    z-index: -2;
+}
+.price-wrap{
+
+}
+.price-wrap h2{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 125%;
+text-transform: uppercase;
+text-align: center;
+color: #f33918;
+margin-bottom: 2.5rem;
+}
+.price-wrap img{
+    width: 27.1rem;
+    height: 7rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.daily-wrap{
+    width: 40rem;
+    height: 48rem;
+    background-image: url(../images/daily-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 3.3rem;
+    margin-top: 1rem;
+}
+.daily-wrap h3{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 90%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20.2rem;
+}
+.daily-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 125%;
+
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2.2rem;
+}
+.daily-text2{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 125%;
+text-align: center;
+color: #fff;
+text-transform: uppercase;
+}
+.daily-btn{
+    width: 35rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 15rem;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 121%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+margin-top: 3rem;
+}
+.daily-btn:hover{
+    background: #fff;
+    color: #000;
+}
+footer {
+    margin-top: 8rem !important;
+    margin-bottom: 2.8rem !important;
+}
+footer p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 121%;
+text-transform: uppercase;
+color: #868686;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

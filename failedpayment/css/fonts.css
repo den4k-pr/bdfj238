@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Steelfish';
+	src: url('../fonts/SteelfishRg-Regular.woff2') format('woff2'), url('../fonts/SteelfishRg-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Steelfish';
+	src: url('../fonts/SteelfishRg-Italic.woff2') format('woff2'), url('../fonts/SteelfishRg-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Steelfish';
+	src: url('../fonts/SteelfishRg-Bold.woff2') format('woff2'), url('../fonts/SteelfishRg-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Steelfish';
+	src: url('../fonts/SteelfishRg-BoldItalic.woff2') format('woff2'), url('../fonts/SteelfishRg-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Steelfish';
+	src: url('../fonts/SteelfishEb-Regular.woff2') format('woff2'), url('../fonts/SteelfishEb-Regular.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Steelfish';
+	src: url('../fonts/SteelfishEb-Italic.woff2') format('woff2'), url('../fonts/SteelfishEb-Italic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;}

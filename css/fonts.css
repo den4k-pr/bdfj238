@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Righteous-Regular';
+    src: url('../fonts/Righteous-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSans3';
+    src: url('../fonts/SourceSans3-Regular.ttf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSans3-Bold';
+    src: url('../fonts/SourceSans3-Bold.ttf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Bold';
+    src: url('../fonts/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Medium';
+    src: url('../fonts/Outfit-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aclonica-Regular';
+    src: url('../fonts/Aclonica-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
