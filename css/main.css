@@ -33,7 +33,7 @@
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: infiniteScrollMarquee 14s linear infinite;
+  animation: infiniteScrollMarquee 40s linear infinite;
 }
 
 .marquee-item {
