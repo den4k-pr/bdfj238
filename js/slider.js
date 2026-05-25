@@ -5,8 +5,17 @@ document.addEventListener("DOMContentLoaded", () => {
     new Swiper(galleryEl, {
         loop: true,
         spaceBetween: 20,
-        slidesPerView: 1.2,
+        slidesPerView: 'auto', // Слайд бере ширину своєї картинки
         centeredSlides: false,
-        // Кнопки навігації видалено згідно з ТЗ
+        navigation: {
+            nextEl: '.s9__arrow-next',
+            prevEl: '.s9__arrow-prev',
+        },
+        breakpoints: {
+            700: {
+                slidesPerView: 'auto', // На десктопі теж авто-ширина
+                spaceBetween: 24
+            }
+        }
     });
 });
