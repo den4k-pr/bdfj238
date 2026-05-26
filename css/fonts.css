@@ -13,6 +13,13 @@
 }
 
 @font-face {
+    font-family: 'SourceSans3-Medium';
+    src: url('../fonts/SourceSans3-Medium.ttf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'SourceSans3-Bold';
     src: url('../fonts/SourceSans3-Bold.ttf') format('opentype');
     font-weight: 500;
